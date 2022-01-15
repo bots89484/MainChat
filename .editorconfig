@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_method = true
+
+# IDE0022: Use block body for methods
+csharp_style_expression_bodied_methods = true

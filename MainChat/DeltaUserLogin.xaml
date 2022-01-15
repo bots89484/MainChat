@@ -1,0 +1,25 @@
+﻿<Window x:Class="MainChat.DeltaUserLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainChat"
+        mc:Ignorable="d"
+        Title="DeltaUserLogin" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="596*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/0f404ea4c452e4d6d59b85b52d2bec58.jpg" TileMode="None"/>
+        </Grid.Background>
+        <Button Content="Login" HorizontalAlignment="Left" Height="47" Margin="98,250,0,0" VerticalAlignment="Top" Width="183" Click="OpenWindow" FontFamily="Arial" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Height="35" Margin="98,130,0,0" VerticalAlignment="Top" Width="108" FontFamily="Arial" FontSize="18" FontWeight="Bold" FontStretch="Normal" Grid.ColumnSpan="2"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Height="34" Margin="98,165,0,0" VerticalAlignment="Top" Width="108" FontFamily="Arial" FontSize="18" FontWeight="Bold" FontStretch="Normal" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="88,136,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="88,170,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" Grid.Column="1"/>
+
+    </Grid>
+</Window>

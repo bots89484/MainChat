@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="0f404ea4c452e4d6d59b85b52d2bec58.jpg" />
+    <None Remove="Icons\camera.png" />
+    <None Remove="Icons\Plus.png" />
+    <None Remove="Icons\Send.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\camera.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\plus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\send.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="D:\MainWindow.xaml" Link="MainWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="0f404ea4c452e4d6d59b85b52d2bec58.jpg" />
+  </ItemGroup>
+
+</Project>
